@@ -1,0 +1,5 @@
+<% if @name.blank? && @adjective.blank? %>
+	<%= @text %>
+<% else %>
+	<p> <%= @name %> is so <%= @adjective %>! </p>
+<% end %>
